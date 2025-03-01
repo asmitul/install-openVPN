@@ -1,0 +1,30 @@
+## 安装 Ubuntu 22, 开启 1194 端口
+
+## 使用 sudo -i 切换到 root
+```bash
+sudi -i
+```
+
+## 更新
+```bash
+apt update && apt upgrade -y
+```
+
+## 重启
+
+## 脚本
+```bash
+nano openvpn-install.sh
+chmod +x openvpn-install.sh
+./openvpn-install.sh
+```
+
+## 安装过程中
+```bash
+输入密码 123456
+```
+
+## 复制到本地
+```bash
+cat /root/client.ovpn
+```
