@@ -36,4 +36,10 @@ sudo systemctl enable openvpn@client.service
 sudo systemctl start openvpn@client.service
 # 检查状态
 sudo systemctl status openvpn@client.service
+# 停止服务（临时关闭）暂时停止 OpenVPN 客户端运行，但保留开机自启设置
+sudo systemctl stop openvpn@client.service
+# 禁用服务（取消开机自启）
+sudo systemctl disable openvpn@client.service
+# 检查进程：
+ps aux | grep openvpn
 ```
