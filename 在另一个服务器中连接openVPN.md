@@ -18,9 +18,11 @@ route 93.184.216.34 255.255.255.255 vpn_gateway  # example.com 的 IP
 route 198.51.100.1 255.255.255.255 vpn_gateway   # specific-site.com 的 IP
 ```
 
-# 运行 OpenVPN
+# 手动运行 OpenVPN 和 关闭
 ```bash
 sudo openvpn --config /root/[name⚠️].ovpn --daemon
+# 关闭
+sudo killall openvpn
 ```
 
 # 测试目标 IP（走 VPN）  
