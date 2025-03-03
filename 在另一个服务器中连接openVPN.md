@@ -6,6 +6,7 @@ cat /root/[name⚠️].ovpn
 
 # 安装openVPN
 ```bash
+sudo apt update && sudo apt upgrade -y
 sudo apt install -y openvpn
 ```
 
