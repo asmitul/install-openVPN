@@ -4,6 +4,11 @@ sudo ./install-openvpn.sh # 配置文件名字 [name⚠️]
 cat /root/[name⚠️].ovpn
 ```
 
+# 安装openVPN
+```bash
+sudo apt install -y openvpn
+```
+
 # 在新的服务器上安装openVPN
 ```bash
 # 把复制的.ovpn文件粘贴到这里
